@@ -1,5 +1,5 @@
 # DataScienceCapstone
-Microsoft Professional Program - Data Science Capstone Competition
+Microsoft Professional Program - Data Science Capstone Project Competition
 
 Predict Heart Disease Rate (Regression)
 
