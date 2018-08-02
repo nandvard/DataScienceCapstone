@@ -5,6 +5,6 @@ Predict Heart Disease Rate (Regression)
 
 dataset/ csv files - Training values & labels, Test values
 
-heart_disease.py - LightGBM , RMSE 32.1
+heart_disease.py - LightGBM
 
 project_report.pdf - Data Visualization
