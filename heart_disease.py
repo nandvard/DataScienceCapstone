@@ -23,12 +23,14 @@ X_train = pd.get_dummies(df_X_train.drop(ID, axis=1).fillna(0)).values
 Y_train = df_Y_train[target].values
 X_test  = pd.get_dummies(df_X_test.drop(ID,axis=1).fillna(0)).values
 
+
 # Split training data , Evaluate model , Tune hyper-parameters
 x_train, x_eval, y_train, y_eval = train_test_split(X_train, Y_train, test_size=0.2, random_state=1)
 
 model = LGBMRegressor(n_estimators=2000, learning_rate=0.05, num_leaves=30)
 rmse = evaluate(x_train, x_eval, y_train, y_eval, model)
 print ('LGBMRegressor RMSE :', rmse)
+
 
 # Train model , Predict
 model.fit(X_train, Y_train)
