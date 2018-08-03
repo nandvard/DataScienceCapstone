@@ -40,4 +40,4 @@ Y_predict = model.predict(X_test)
 submit = np.column_stack((df_X_test[ID], np.round(Y_predict)))
 np.savetxt("submit.csv", submit, fmt='%i', delimiter=",", header=ID+','+target, comments='')
 
-print ('Done')
+print ('submit.csv')
