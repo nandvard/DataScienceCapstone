@@ -5,6 +5,8 @@ Predict Heart Disease Rate (Regression)
 
 dataset/ csv files - Training values & labels, Test values
 
-heart_disease.py - LightGBM - https://www.kaggle.com/nandvard/heart-disease-py
+heart_disease.py - LightGBM
 
 project_report.pdf - Data Visualization
+
+Runnable kernel - https://www.kaggle.com/nandvard/heart-disease-py
