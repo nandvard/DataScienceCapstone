@@ -9,4 +9,4 @@ heart_disease.py - LightGBM Regression
 
 project_report.pdf - Data Visualization
 
-Runnable kernel - https://www.kaggle.com/nandvard/heart-disease-py
+Runnable kernel - https://www.kaggle.com/nandvard/heartdisease
