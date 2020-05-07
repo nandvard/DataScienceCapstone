@@ -5,7 +5,7 @@ Predict Heart Disease Rate
 
 dataset/ .csv files - Training values, Training labels, Test values
 
-heart_disease.py - LightGBM Regression
+heart_disease.py - LightGBM Regression (simplistic version)
 
 project_report.pdf - Data Visualization
 
